@@ -2,11 +2,13 @@ import sys
 from pathlib import Path
 
 import gradio as gr
+import spaces
 
 sys.path.insert(0, str(Path(__file__).parent / "src" / "smart_turn"))
 
 from inference import DEFAULT_CHECKPOINT, predict
 
+@spaces.GPU
 def process_recording(audio):
     """
     Runs inference over the completed microphone recording.  Gradio provides
