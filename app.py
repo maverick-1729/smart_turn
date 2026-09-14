@@ -1,14 +1,3 @@
-"""
-Gradio demo for Smart Turn (Hinglish) endpoint detection.
-
-Records microphone audio and runs inference once the user stops recording.
-The feature extractor handles the model's fixed-length, right-aligned input
-window by padding or retaining the trailing portion of the recording.
-
-Usage:
-    pip install gradio soundfile
-    python app.py
-"""
 import sys
 from pathlib import Path
 

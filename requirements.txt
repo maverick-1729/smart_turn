@@ -3,3 +3,4 @@ numpy>=2,<3
 torch>=2,<3
 transformers>=5,<6
 soundfile>=0.13
+spaces
