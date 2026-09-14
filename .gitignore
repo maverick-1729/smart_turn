@@ -1,0 +1,34 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and OS/editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
+*.ses
+
+# Downloaded/generated audio data. Keep the lightweight CSV manifests tracked.
+data/raw/
+data/test_raw/
+data/_shard_tmp/
+
+# Generated training experiment logs and histories
+runs/results.csv
+runs/history/
